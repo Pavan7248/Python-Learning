@@ -40,3 +40,13 @@ print(list1.count(1))
 print(list1.index(1))
 #.copy() function returns a copy of the list
 
+#.asend() function returns a sorted list in ascending order.
+
+# .count() function returns the number of elements with the specified value.
+
+print(list1.index(1))
+#.copy() function returns a copy of the list
+list1.count(o)
+list1.ascend(23,34,54,65,76,87,98)
+list1.extend(list2)
+print(list1)

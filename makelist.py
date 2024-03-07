@@ -12,3 +12,4 @@ for i in range(num):
 
 #printing the list
 print('The list is:', list1 )
+
