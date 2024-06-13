@@ -17,3 +17,20 @@ print("The list is: ", list1)
 print("The largest element in the list is: ", max(list1))
 #printing the smallest element
 print("The smallest element in the list is: ", min(list1))
+
+
+#Finding max and min using for loop
+
+l=eval(input("Enter a list of numbers"))
+
+larg = l[0] 
+small =l[0] 
+
+for num in l:
+    if num > larg:
+        larg = num
+    if num < small:
+        smallest = num
+
+print("Largest:", larg) 
+print("Smallest:", small) 
