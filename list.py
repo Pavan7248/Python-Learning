@@ -83,7 +83,7 @@ end = chunk_size
 for i in range(3):
     # get indexes
     indexes = slice(start, end)
-
+                   
     # get chunk
     list_chunk = sample_list[indexes]
     print("Chunk ", i, list_chunk)
