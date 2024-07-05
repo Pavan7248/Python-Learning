@@ -89,7 +89,8 @@ for i in range(3):
     print("Chunk ", i, list_chunk)
 
     # reverse chunk
-    print("After reversing it ", list(reversed(list_chunk)))
+    print("After reversing the list ", list(reversed(list_chunk)))
+
 
     start = end
     end += chunk_size
