@@ -79,6 +79,7 @@ chunk_size = int(length / 3)
 start = 0
 end = chunk_size
 
+
 # run loop 3 times
 for i in range(3):
     # get indexes
