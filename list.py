@@ -92,6 +92,6 @@ for i in range(3):
     # reverse chunk
     print("After reversing the list ", list(reversed(list_chunk)))
 
-
-    start = end
+    start =  end
     end += chunk_size
+    
